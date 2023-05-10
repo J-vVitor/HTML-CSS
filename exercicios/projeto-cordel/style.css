@@ -44,23 +44,48 @@ a:hover{
     text-decoration: underline;
 }
 
-section{padding-left: 30px;
+section{padding-left: 10vh;
 line-height: 2em;
 padding-top: 30px;
-padding-bottom: 30px;
-font-size: 3.5vw;
+padding-bottom: 10vh;
+font-size: 3.2vw;
 font-family: var(--font2);
+
+}
+
+section > p{
+    padding-bottom: 11vh;
 }
 
 section.normal{background-color: white;}
 
-section.imagem{background-color: rgb(99, 99, 99);}
+section.imagem{background-color: rgb(153, 153, 153);}
 
-section.imagem p{background-color: white;
+section.imagem p{background-color: rgba(27, 27, 27, 0.451);
 display: inline-block;
 text-align: center;
 border-radius: 3px;
-padding: 4px;}
+padding: 6px;
+color: white;
+text-shadow: 3px 2px 2px black;}
+
+section#img1{
+    box-shadow: inset 0px 0px 20px 3px black;
+    background-image: url(imagens/outono.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right center;
+}
+
+section#img2{
+    box-shadow: inset 0px 0px 20px 3px black;
+    background-image: url(imagens/inverno.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position: right center;
+}
 
 
 
