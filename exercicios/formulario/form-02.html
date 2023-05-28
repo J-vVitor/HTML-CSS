@@ -16,22 +16,24 @@
     <h1>Formulário com senha</h1>
 
     <form action="arquivo.php" method="post ">
-
-        <p>
-            <label for="inome">usuário:</label>
-            <input type="text" name="nome" id="inome" placeholder="Digite seu usuário"
-            minlength="5">
-        </p>
-
-        <p>
-            <label for="isenha">Senha:</label>
-            <input type="password" name="senha" id="isenha" placeholder="Digite sua senha" minlength="8">
-        </p>
-
-        <p>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="limpar">
-        </p>
+<fieldset>
+    
+            <legend> Dados Pessoais</legend>
+                <p>
+                    <label for="inome">usuário:</label>
+                    <input type="text" name="nome" id="inome" placeholder="Digite seu usuário"
+                    minlength="5">
+                </p>
+                <p>
+                    <label for="isenha">Senha:</label>
+                    <input type="password" name="senha" id="isenha" placeholder="Digite sua senha" minlength="8">
+                </p>
+                <p>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="limpar">
+                </p>
+            
+</fieldset>
 
     </form>
 
