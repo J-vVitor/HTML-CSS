@@ -1,3 +1,5 @@
 @charset "UTF-8";
 
 /*CONFIGURACAO MD RETRATO*/
+
+html,body{background-image: url(../imagens/cev-portrait.jpg);}
