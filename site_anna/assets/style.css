@@ -62,9 +62,8 @@ main{
     height: 70vh;
 }
 
-img{
+#capa{
     width: 100%;
-    padding: 20px;
 }
 
 #home h1{
@@ -150,6 +149,7 @@ img{
 }
 
 #contato img{
+    padding: 10px;
     margin-left: 50px;
     display: block;
     width: 100px;
@@ -163,6 +163,9 @@ img{
     width: 840px;
     text-align: left;
 }
+
+
+/*FOOTER*/
 
 footer{
     margin-top: 30px;
