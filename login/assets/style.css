@@ -13,13 +13,13 @@ body{
 }
 
 main{
+    box-shadow: 1px 1px 3px rgb(255, 255, 255, 0.4);
     border-radius: 10px;
-    border: 1px solid rgb(255, 255, 255, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.292);
     margin:100px auto;
-    background-color: rgb(255, 255, 255, 0.15);
     width: 500px;
     height: 300px;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(4px);
 }
 
 #principal{
@@ -30,6 +30,8 @@ main{
 }
 
 div img{
+    border-radius: 50%;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.498);
     left: 180px;
     bottom: 80px;
     position: relative;
@@ -37,6 +39,7 @@ div img{
 
 
 #info input{
+    cursor: pointer;
     background-color: rgba(255, 255, 255, 0.918);
     width: 400px;
     height: 40px;
@@ -49,6 +52,12 @@ div img{
     border-radius: 4px;
 }
 
+#info  input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} /* REMOVER BORDAR INTERNA INPUT */
+
 input[type="email"]{
     background-image: url(img/icone-usuario.png);
     background-position: 4px;
@@ -60,6 +69,7 @@ input[type="password"]{
     background-position: 4px;
 }
 
+
 button{
     font-weight: 600;
     font-size: 22px;
@@ -70,4 +80,12 @@ button{
     width: 400px;
     background-color: #2e0d53db;
     color: white;
+    transition: all 300ms ease-in-out;
+    cursor: pointer;
 }
+
+button:hover{
+    background-color: white;
+    color:#2e0d53db ;
+}
+
